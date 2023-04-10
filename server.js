@@ -20,11 +20,11 @@ app.use('/contact',ContactRoute)
 
 
  app.get('/',(req,res)=>{
-     try{
-        res.send('welcome')
-    }catch(err){console.log(err)}
+      try{
+         res.send('welcome')
+     }catch(err){console.log(err)}
 
- })
+  })
 
 
 
